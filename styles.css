@@ -3,6 +3,10 @@
   --text-color: #333;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
