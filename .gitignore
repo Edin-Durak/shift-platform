@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+.env
+
+# IDE/Editor specific
+.vscode/
+.idea/
+*.sublime-*
+.DS_Store
+
+# Build output
+dist/
+build/ 
