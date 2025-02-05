@@ -27,9 +27,22 @@ body {
 }
 
 .lang-link {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  outline: none;
   text-decoration: none;
   color: var(--text-color);
   margin: 0 5px;
+}
+
+.lang-link:focus {
+  outline: none;
+}
+
+.lang-link:active {
+  color: var(--text-color);
 }
 
 .logo-container {
@@ -61,6 +74,15 @@ body {
   cursor: pointer;
   font-size: 18px;
   position: relative;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  outline: none;
+}
+
+.tab-btn:focus {
+  outline: none;
 }
 
 .tab-btn.active {
